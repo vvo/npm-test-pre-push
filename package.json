@@ -1,0 +1,14 @@
+{
+  "name": "npm-test-pre-push",
+  "version": "0.0.0",
+  "description": "Install a git pre-push hook launching `npm test`",
+  "scripts": {
+    "install": "node install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vvo/npm-test-pre-push.git"
+  },
+  "author": "Vincent Voyer <vincent.voyer@gmail.com> (http://github.com/vvo)",
+  "license": "MIT"
+}

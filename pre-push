@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+var spawn = require('child_process').spawn;
+var cmd = 'npm';
+var args = ['test'];
+var options = {
+  stdio: 'inherit'
+};
+
+spawn(cmd, args, options).on('exit', check);
+
+function check(code) {
+  if (code !== 0) {
+    throw 'Tests did not pass';
+  }
+}
