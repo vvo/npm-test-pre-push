@@ -1,6 +1,6 @@
 {
   "name": "npm-test-pre-push",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Install a git pre-push hook launching `npm test`",
   "scripts": {
     "install": "node install.js"
